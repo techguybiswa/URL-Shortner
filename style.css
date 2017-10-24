@@ -1,17 +1,13 @@
-.custom-navbar {
-	box-shadow: 0px 6px 5px #888888; 
-	height: 85px; 
-	font-size: 28px; 
-	padding-top: 22px
+.give-gradient {
+	background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-.navbar-title {
-	font-size: 44px; 
-	font-family: 'Pacifico', cursive;
-}
-.btn-light {
-	color: #847c7c;
-}
-.btn-dark {
-	background-color: #dae3f2; 
-	color: #847c7c
+
+.large-grad {
+	background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
