@@ -1,0 +1,17 @@
+.custom-navbar {
+	box-shadow: 0px 6px 5px #888888; 
+	height: 85px; 
+	font-size: 28px; 
+	padding-top: 22px
+}
+.navbar-title {
+	font-size: 44px; 
+	font-family: 'Pacifico', cursive;
+}
+.btn-light {
+	color: #847c7c;
+}
+.btn-dark {
+	background-color: #dae3f2; 
+	color: #847c7c
+}
