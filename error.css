@@ -1,0 +1,39 @@
+#image404 {
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 3s;
+}
+#error-heading {
+	-moz-transition: transform 1s;
+  	-webkit-transition: transform 1s;
+  	transition: transform 3s;
+}
+.flip {
+  transform: rotate(40deg);
+}
+.flip-again {
+	transform: rotate(5deg);
+/*	transform: rotate(-30deg);
+*/}
+body {
+	overflow-x: hidden; 
+	overflow-y: hidden;
+}
+
+.image-container {
+	padding-top: 40px; 
+	padding-left: 40px
+}
+.error-head {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 106px; 
+	color: #0078af; 
+	padding-top: 150px; 
+	text-align: center;
+}
+.error-desc {
+	font-size: 22px; 
+	color: #0078af;
+	font-family: 'Saira Extra Condensed', sans-serif; 
+	text-align: center;
+}
