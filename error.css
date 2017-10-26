@@ -3,10 +3,19 @@
   -webkit-transition: transform 1s;
   transition: transform 3s;
 }
+#page_not_found_image {
+	-moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 6s;
+}
 #error-heading {
 	-moz-transition: transform 1s;
   	-webkit-transition: transform 1s;
   	transition: transform 3s;
+}
+
+.flap {
+	transform: rotate(-20deg);
 }
 .flip {
   transform: rotate(40deg);
