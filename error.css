@@ -12,8 +12,15 @@
 	-moz-transition: transform 1s;
   	-webkit-transition: transform 1s;
   	transition: transform 3s;
+}	
+#csrf_error {
+	-moz-transition: transform 1s;
+  	-webkit-transition: transform 1s;
+  	transition: transform 3s;
 }
-
+.flap-again {
+	transform: scale(1.1) skew(-10deg);
+}
 .flap {
 	transform: rotate(-20deg);
 }
